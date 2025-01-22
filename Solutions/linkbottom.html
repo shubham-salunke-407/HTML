@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll to Top Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .content {
+            height: 1500px; /* Simulate a long page */
+            padding: 20px;
+        }
+        .link-to-top {
+            display: block;
+            text-align: center;
+            margin: 20px 0;
+            font-size: 18px;
+            color: blue;
+            text-decoration: none;
+        }
+        .link-to-top:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div id="top" class="content">
+        <h1>Welcome to the Page</h1>
+        <p>Scroll down to find the link at the bottom of the page that will take you back to the top.</p>
+    </div>
+
+    <a href="#top" class="link-to-top">Back to Top</a>
+</body>
+</html>
